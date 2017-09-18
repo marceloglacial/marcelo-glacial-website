@@ -33,15 +33,18 @@ html {
 
 #Main {
   background: #EA4342;
-  text-align: right;
   padding: 50px;
-  width: 530px;
-
+  width: 40%;
   /* Vertical Alignment */
   position: absolute;
   top: 50%;
-  right: 0;
+  right: 5%;
   transform: translateY(-50%);
+}
+#Main * {
+  padding: 0;
+  margin: 0;
+  text-align: right;
 }
 
 /* Header ---- */
@@ -50,14 +53,12 @@ h1 {
   font-size: 120px;
   letter-spacing: -13px;
   line-height: 89px;
-  padding-right: 25px;
 }
 h2 {
   display: none;
 }
 ul {
   list-style: none;
-  padding-right: 25px; /* Fix letter-spacing */
 }
 
 /* Skills ---- */
@@ -66,5 +67,79 @@ section.skills {
   font-size: 27px;
   letter-spacing: -2px;
   line-height: 22px;
+}
+#Main section.skills {
+  padding: 15px 0;
+}
 
+/* Social ---- */
+#Main .social ul {
+  float: right;
+}
+#Main .social li a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  font-size: 0;
+  margin-right: 10px;
+}
+li.linkedin a {
+  background: url(../img/social-linkedin.png);
+  background-size: contain;
+}
+li.behance a {
+  background: url(../img/social-behance.png);
+  background-size: contain;
+}
+li.github a {
+  background: url(../img/social-github.png);
+  background-size: contain;
+}
+li.medium a {
+  background: url(../img/social-medium.png);
+  background-size: contain;
+}
+
+
+/*
+Responsive
+=================
+*/
+
+/* Phones  ---- */
+@media only screen and (max-width: 420px) {
+  #Container {
+    background-size:900px;
+    background-position:0% 400%;
+  }
+  #Main * {
+    text-align: center;
+  }
+  #Main {
+    width: 100%;
+    right: 0%;
+    top: 50%;
+    transform: none;
+  }
+  h1 {
+    font-size: 30px;
+    letter-spacing: -6px;
+    line-height: 40px;
+    padding-right: 25px;
+  }
+  section.skills {
+    font-weight: lighter;
+    font-size: 27px;
+    letter-spacing: -2px;
+    line-height: 22px;
+
+  }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) ---- */
+@media (min-width: 1400px) {
+  #Main {
+    width: 750px;
+  }
 }
