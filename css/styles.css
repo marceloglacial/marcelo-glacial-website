@@ -1,5 +1,20 @@
 /*
-  Project: Marcelo Glacial Personal Website
-  Author: Marcelo Glacial
-  Starts: 18/09/2017
+Project: Marcelo Glacial Personal Website
+Author: Marcelo Glacial
+Starts: 18/09/2017
 */
+
+#Container {
+  background: url(../img/background.png) no-repeat center top;
+  background-size: cover;
+  height: 100vh;
+}
+
+#Main {
+  width: 50%;
+  background: #EA4342;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+}
