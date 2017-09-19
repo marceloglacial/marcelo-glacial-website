@@ -69,22 +69,22 @@ section.skills {
   line-height: 22px;
 }
 #Main section.skills {
-  padding: 15px 0;
+  padding-top: 15px;
 }
 
 /* Social ---- */
-#Main .social ul {
-  outline: solid 1px #FFF;
-}
 #Main .social li {
   display: inline-block;
+  margin-left: 10px;
+}
+#Main .social li:first-child {
+  margin: 0;
 }
 #Main .social li a {
   display: inline-block;
   width: 50px;
   height: 50px;
   font-size: 0;
-  outline: solid 1px #FFF;
 }
 li.linkedin a {
   background: url(../img/social-linkedin.png);
@@ -110,18 +110,17 @@ Responsive
 */
 
 /* Phones  ---- */
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 736px) {
   #Main {
     padding: 30px;
     width: 90%;
   }
   #Main * {
     text-align: center;
-    outline: solid 1px #FFF;
   }
   #Main h1 {
     font-size: 62px;
-    letter-spacing: -7px;
+    letter-spacing: -6px;
     line-height: 45px;
     padding-right: 5px;
   }
@@ -144,7 +143,7 @@ Responsive
 }
 
 /* Tablets ---- */
-@media screen and (min-width: 421px) and (max-width: 1024px)  {
+@media screen and (min-width: 737px) and (max-width: 1024px)  {
   #Main {
     width: 45%;
   }
