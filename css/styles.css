@@ -49,7 +49,7 @@ html {
 
 /* Header ---- */
 h1 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 120px;
   letter-spacing: -13px;
   line-height: 89px;
@@ -63,7 +63,7 @@ ul {
 
 /* Skills ---- */
 section.skills {
-  font-weight: lighter;
+  font-weight: 200;
   font-size: 27px;
   letter-spacing: -2px;
   line-height: 22px;
@@ -74,14 +74,17 @@ section.skills {
 
 /* Social ---- */
 #Main .social ul {
-  float: right;
+  outline: solid 1px #FFF;
+}
+#Main .social li {
+  display: inline-block;
 }
 #Main .social li a {
-  display: block;
+  display: inline-block;
   width: 50px;
   height: 50px;
   font-size: 0;
-  margin-right: 10px;
+  outline: solid 1px #FFF;
 }
 li.linkedin a {
   background: url(../img/social-linkedin.png);
@@ -106,48 +109,42 @@ Responsive
 =================
 */
 
-/* Small Phones  ---- */
-@media only screen and (max-width: 375px) {
-  h1 {
-    font-size: 10px;
-  }
-}
 /* Phones  ---- */
 @media only screen and (max-width: 420px) {
-  #Main * {
-    float: none;
-  }
   #Main {
-    padding: 50px 20px;
-    width: 75%;
+    padding: 30px;
+    width: 90%;
   }
-  h1 {
-    font-size: 42px;
-    letter-spacing: -4px;
-    line-height: 20px;
+  #Main * {
+    text-align: center;
+    outline: solid 1px #FFF;
   }
-  section.skills {
-    font-weight: lighter;
-    font-size: 15px;
-    letter-spacing: 0;
+  #Main h1 {
+    font-size: 62px;
+    letter-spacing: -7px;
+    line-height: 45px;
+    padding-right: 5px;
   }
   #Main .skills li {
-    float: right;
-    margin: 0 0 15px 5px;
+    font-size: 18px;
+    letter-spacing: -1px;
   }
-  #Main .skills li:last-child {
-    margin-right: 5px;
-    padding-right: 10px;
-    border-right: solid 1px #FFF;
+  #Main .social ul {
+    margin: 0 auto;
+    width: 200px;
+    float: none;
   }
-  #Main .social li a {
+  #Main .social li a  {
     width: 35px;
     height: 35px;
-    margin: 0 5px 0 0;
+  }
+  #Main .social li {
+    margin: 0;
   }
 }
+
 /* Tablets ---- */
-@media screen and (min-width: 799px) and (max-width: 1024px)  {
+@media screen and (min-width: 421px) and (max-width: 1024px)  {
   #Main {
     width: 45%;
   }
