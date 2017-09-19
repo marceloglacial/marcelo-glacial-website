@@ -108,31 +108,31 @@ Responsive
 
 /* Phones  ---- */
 @media only screen and (max-width: 420px) {
-  #Container {
-    background-size:900px;
-    background-position:0% 400%;
-  }
   #Main * {
-    text-align: center;
+    float: none;
   }
   #Main {
-    width: 100%;
-    right: 0%;
-    top: 50%;
-    transform: none;
+    padding: 50px 20px;
+    width: 75%;
   }
   h1 {
-    font-size: 30px;
-    letter-spacing: -6px;
-    line-height: 40px;
-    padding-right: 25px;
+    font-size: 35px;
+    letter-spacing: -2px;
+    line-height: 20px;
   }
   section.skills {
     font-weight: lighter;
-    font-size: 27px;
-    letter-spacing: -2px;
-    line-height: 22px;
-
+    font-size: 15px;
+    letter-spacing: 0;
+  }
+  #Main .skills li {
+    float: right;
+    margin: 0 0 15px 5px;
+  }
+  #Main .social li a {
+    width: 35px;
+    height: 35px;
+    margin: 0 5px 0 0;
   }
 }
 
