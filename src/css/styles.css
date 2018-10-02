@@ -37,7 +37,8 @@ html {
 #Main {
   background: #EA4342;
   padding: 50px;
-  width: 40%;
+  margin: 50px;
+  max-width: 500px;
   text-align: right;
 }
 
@@ -62,9 +63,8 @@ section.skills {
   font-size: 27px;
   letter-spacing: -2px;
   line-height: 22px;
-}
-#Main section.skills {
   padding-top: 15px;
+  display: inline-block;
 }
 
 /* Social ---- */
@@ -98,59 +98,50 @@ li.medium a {
   background-size: contain;
 }
 
-
-/*
-Responsive
-=================
-*/
-
-/* Phones  ---- */
-@media only screen and (max-width: 736px) {
+/* Mobile - Tablets  */
+@media (max-width: 1120px) {
   #Main {
-    padding: 30px;
-    width: 90%;
-  }
-  #Main * {
-    text-align: center;
-  }
-  #Main h1 {
-    font-size: 62px;
-    letter-spacing: -6px;
-    line-height: 45px;
-    padding-right: 5px;
-  }
-  #Main .skills li {
-    font-size: 18px;
-    letter-spacing: -1px;
-  }
-  #Main .social ul {
-    margin: 0 auto;
-    width: 200px;
-    float: none;
-  }
-  #Main .social li a  {
-    width: 35px;
-    height: 35px;
-  }
-  #Main .social li {
-    margin: 0;
-  }
-}
-
-/* Tablets ---- */
-@media screen and (min-width: 737px) and (max-width: 1024px)  {
-  #Main {
-    width: 45%;
+    max-width: 400px;
   }
   h1 {
-    font-size: 80px;
-    line-height: 59px;
-    letter-spacing: -8px;
+    font-size: 100px;
+    line-height: 74px;
+    letter-spacing: -12px;
   }
 }
-/* Extra large devices  ---- */
-@media (min-width: 1400px) {
-  #Main {
-    width: 750px;
+
+/* Mobile - Phones */
+
+@media (max-width: 750px) {
+  #Container {
+    align-items: flex-end;
   }
+  #Main {
+    max-width: 200px;
+    margin: 20px;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 45px;
+    line-height: 33px;
+    letter-spacing: -4px;
+    text-align: right;
+    float: right;
+  }
+  .skills li {
+    font-size: 20px;
+  }
+  #Main .social li {
+    margin-left: 0px;
+  }
+  #Main .social li a {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (orientation: landscape) {
+  #Container {
+    align-items: center;
+  } 
 }
