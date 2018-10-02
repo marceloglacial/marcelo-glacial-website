@@ -4,3 +4,4 @@ deploy:
     - lftp -c "set ftp:ssl-allow no; open -u $USERNAME,$PASSWORD $HOST; mirror -Rnev ./src ./public_html/glacial --ignore-time --parallel=10 --exclude-glob .git* --exclude .git/"
   only:
     - master
+    
