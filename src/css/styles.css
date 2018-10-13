@@ -118,7 +118,7 @@ li.medium a {
 
 @media (max-width: 750px) {
   #Container {
-    align-items: flex-start;
+    align-items: center;
   }
   #Main {
     max-width: 200px;
