@@ -118,7 +118,7 @@ li.medium a {
 
 @media (max-width: 750px) {
   #Container {
-    align-items: flex-end;
+    align-items: center;
   }
   #Main {
     max-width: 200px;
@@ -139,8 +139,9 @@ li.medium a {
     margin-left: 0px;
   }
   #Main .social li a {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
   }
 }
 

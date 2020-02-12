@@ -1,0 +1,35 @@
+{
+  "name": "marcelo-glacial-website",
+  "version": "1.0.1",
+  "description": "Marcelo Glacial Freitas Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marceloglacial/marcelo-glacial-website.git"
+  },
+  "keywords": [
+    "personal",
+    "website",
+    "portfolio"
+  ],
+  "author": "Marcelo Glacial Freitas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marceloglacial/marcelo-glacial-website/issues"
+  },
+  "homepage": "https://github.com/marceloglacial/marcelo-glacial-website#readme",
+  "devDependencies": {
+    "browser-sync": "latest",
+    "del": "latest",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-htmlmin": "latest",
+    "gulp-smushit": "latest",
+    "gulp-uglify": "latest",
+    "pump": "latest"
+  }
+}
