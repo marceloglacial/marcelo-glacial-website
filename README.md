@@ -1,3 +1,5 @@
+![Publish Website](https://github.com/marceloglacial/marcelo-glacial-website/workflows/Publish%20Website/badge.svg)
+
 # Marcelo Glacial's personal website
 
 You can find here:
