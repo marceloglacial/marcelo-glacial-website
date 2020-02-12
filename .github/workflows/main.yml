@@ -12,6 +12,6 @@ jobs:
         FTP_SERVER: ${{ secrets.FTP_SERVER }}
         FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-        LOCAL_DIR: build
+        LOCAL_DIR: dist
         ARGS: --delete
         # --delete arg will delete files on the server if you've deleted them in git
