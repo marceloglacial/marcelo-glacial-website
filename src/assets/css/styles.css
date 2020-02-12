@@ -84,6 +84,10 @@ section.skills {
   font-size: 0;
   background-color: white;
   border-radius: 100%;
+  transition: all 0.3s ease-in-out;
+}
+#Main .social li a:hover {
+  opacity: 0.5;
 }
 li.linkedin a {
   background: url(../img/social-linkedin.png);
