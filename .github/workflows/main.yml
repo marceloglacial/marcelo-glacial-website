@@ -9,9 +9,9 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
       env:
-        FTP_SERVER: ftp.marceloglacial.com
+        FTP_SERVER: ${{ secrets.FTP_SERVER }}
         PORT: 21
-        FTP_USERNAME: glacial@marceloglacial.com
+        FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         LOCAL_DIR: dist
         ARGS: --delete --verbose
