@@ -1,9 +1,9 @@
-import Hero from '../components/Hero';
+import Hero from '../components/Hero/Hero';
 import Layout from '../components/Layout';
 
 export default function Home() {
   const data = {
-    title: 'Hero Title',
+    title: 'Hero <br />Title',
     description: 'Best Site Ever',
     image: {
       // src: `https://res.cloudinary.com/dw2wjwhuv/image/upload/v1629224461/marceloglacial/background_temzsr.png`,
