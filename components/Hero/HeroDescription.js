@@ -5,7 +5,7 @@ const HeroDescription = (props) => {
 
   return (
     <p
-      className={`text-2xl tracking-tight`}
+      className={`text-2xl tracking-tight pt-2`}
       dangerouslySetInnerHTML={{ __html: description }}
     />
   );

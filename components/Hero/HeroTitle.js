@@ -6,7 +6,7 @@ const HeroTitle = (props) => {
   return (
     <header>
       <h1
-        className={`text-8xl tracking-tightest font-bold m-0 leading-close`}
+        className={`text-8xl tracking-tightest font-bold leading-close`}
         dangerouslySetInnerHTML={{ __html: title }}
       />
     </header>

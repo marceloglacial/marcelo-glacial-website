@@ -4,21 +4,26 @@ import Layout from '../components/Layout';
 export default function Home() {
   const data = {
     title: 'Marcelo <br />Glacial',
-    description: 'Web Developer',
+    description: 'Front-end Developer / Web Designer',
     image: {
       src: `https://res.cloudinary.com/dw2wjwhuv/image/upload/v1629214372/marceloglacial/background_pctbhk.jpg`,
       alt: `Photo of Marcelo Glacial using sunglasses`,
     },
     icons: [
       {
-        title: 'GitHub',
+        title: 'Web Developer and Front-end Projects',
         icon: 'github',
         url: 'https://github.com/marceloglacial',
       },
       {
-        title: 'LinkedIn',
+        title: 'Professioal Profile',
         icon: 'linkedin',
         url: 'https://www.linkedin.com/in/glacial',
+      },
+      {
+        title: 'Web Design Projects',
+        icon: 'behance',
+        url: 'https://www.behance.net/marceloglacial',
       },
     ],
   };
