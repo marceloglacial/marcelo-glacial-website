@@ -4,9 +4,15 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+    fontFamily: {
+      sans: ['Montserrat', 'sans-serif'],
+    },
+    letterSpacing: {
+      tightest: '-0.75rem',
+    },
   },
   variants: {
     extend: {},
   },
   plugins: [],
-}
+};
