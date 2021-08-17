@@ -6,7 +6,7 @@ export default function Home() {
     title: 'Marcelo <br />Glacial',
     description: 'Web Developer',
     image: {
-      src: `https://res.cloudinary.com/dw2wjwhuv/image/upload/v1629224461/marceloglacial/background_temzsr.png`,
+      src: `https://res.cloudinary.com/dw2wjwhuv/image/upload/v1629214372/marceloglacial/background_pctbhk.jpg`,
       alt: `Photo of Marcelo Glacial using sunglasses`,
     },
     icons: [
