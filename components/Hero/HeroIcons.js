@@ -4,14 +4,14 @@ const HeroIcons = (props) => {
   if (!icons || icons.length === 0) return null;
 
   const iconsList = icons.map((item, index) => {
-    const { title, icons, url } = item;
+    const { title, icon, url } = item;
     return (
-      <li key={index} className={`pr-4`}>
+      <li key={index} className={`pl-4`}>
         <a href={url}>{title}</a>
       </li>
     );
   });
 
-  return <ul className={`hero__icons flex`}>{iconsList}</ul>;
+  return <ul className={`hero__icons flex justify-end`}>{iconsList}</ul>;
 };
 export default HeroIcons;
