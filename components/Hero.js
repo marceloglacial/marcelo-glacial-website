@@ -5,15 +5,7 @@ const Hero = (props) => {
 
   return (
     <section
-      className={`
-      hero
-      h-screen
-      w-full
-      flex
-      items-center
-      justify-end
-      bg-black
-      relative`}
+      className={`hero h-screen w-full flex items-center justify-end bg-black relative`}
     >
       {image && (
         <div className={`absolute h-screen w-screen top-0 left-0`}>
@@ -28,7 +20,9 @@ const Hero = (props) => {
             </h1>
           </header>
         )}
-        {description && <p>{description}</p>}
+        {description && (
+          <p className={`text-2xl tracking-tight`}>{description}</p>
+        )}
       </article>
     </section>
   );

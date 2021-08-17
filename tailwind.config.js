@@ -9,6 +9,7 @@ module.exports = {
     },
     letterSpacing: {
       tightest: '-0.75rem',
+      tight: '-0.1rem',
     },
   },
   variants: {
