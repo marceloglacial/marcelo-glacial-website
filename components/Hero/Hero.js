@@ -1,32 +1,20 @@
-import Image from 'next/image';
+import HeroDescription from './HeroDescription';
+import HeroIcons from './HeroIcons';
+import HeroImage from './HeroImage';
+import HeroTitle from './HeroTitle';
 
 const Hero = (props) => {
-  const { title, description, image } = props;
+  const { title, description, image, icons } = props;
 
   return (
     <section
-      className={`hero h-screen w-full flex items-center justify-end bg-black relative`}
+      className={`hero h-screen w-full flex items-center justify-end relative`}
     >
-      {image && (
-        <div className={`hero__image absolute h-screen w-screen top-0 left-0`}>
-          <Image src={image?.src} alt={image?.alt} layout={'fill'} />
-        </div>
-      )}
+      <HeroImage image={image} />
       <article className={`p-8 text-white bg-red-600 mr-16 relative z-10`}>
-        {title && (
-          <header>
-            <h1
-              className={`text-8xl tracking-tightest font-bold m-0 leading-close`}
-              dangerouslySetInnerHTML={{ __html: title }}
-            />
-          </header>
-        )}
-        {description && (
-          <p
-            className={`text-2xl tracking-tight`}
-            dangerouslySetInnerHTML={{ __html: description }}
-          />
-        )}
+        <HeroTitle title={title} />
+        <HeroDescription description={description} />
+        <HeroIcons icons={icons} />
       </article>
     </section>
   );
