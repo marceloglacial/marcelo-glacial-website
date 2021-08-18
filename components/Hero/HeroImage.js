@@ -10,7 +10,7 @@ const HeroImage = (props) => {
       alt={alt}
       width={1440}
       height={1024}
-      className={`hero__image absolute h-screen w-screen top-0 left-0 object-cover`}
+      className={`hero__image absolute h-screen w-screen top-0 left-0 object-top object-cover`}
       lazy='true'
     />
   );

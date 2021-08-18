@@ -4,9 +4,9 @@ import Layout from '../components/Layout';
 export default function Home() {
   const data = {
     title: 'Marcelo <br />Glacial',
-    description: 'Front-end Developer / Web Designer',
+    description: 'Front-end Developer <br />Web Designer',
     image: {
-      src: `https://res.cloudinary.com/dw2wjwhuv/image/upload/v1629214372/marceloglacial/background_pctbhk.jpg`,
+      src: `https://res.cloudinary.com/dw2wjwhuv/image/upload/v1629253198/marceloglacial/background_altd4s.jpg`,
       alt: `Photo of Marcelo Glacial using sunglasses`,
     },
     icons: [

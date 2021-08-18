@@ -19,6 +19,6 @@ const HeroIcons = (props) => {
     );
   });
 
-  return <ul className={`hero__icons flex justify-end pt-2`}>{iconsList}</ul>;
+  return <ul className={`hero__icons flex justify-end`}>{iconsList}</ul>;
 };
 export default HeroIcons;

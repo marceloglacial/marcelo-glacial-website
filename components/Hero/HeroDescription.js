@@ -3,9 +3,12 @@ const HeroDescription = (props) => {
 
   if (!description) return null;
 
+  const styles = `tracking-tight py-3 leading-5`;
+  const stylesSmall = `sm:text-2xl `;
+
   return (
     <p
-      className={`text-2xl tracking-tight pt-2`}
+      className={`${styles} ${stylesSmall}`}
       dangerouslySetInnerHTML={{ __html: description }}
     />
   );
