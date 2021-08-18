@@ -4,8 +4,8 @@ const HeroTitle = (props) => {
   if (!title) return null;
 
   const styles = `text-4xl font-bold leading-7 tracking-tighter`;
-  const stylesMedium = `md:text-8xl md:tracking-tightest md:leading-close`;
-  const stylesLarge = `md:text-9xl lg:leading-large`;
+  const stylesMedium = `md:text-7xl md:tracking-medium md:leading-medium`;
+  const stylesLarge = `lg:text-8xl lg:tracking-tightest lg:leading-close`;
 
   return (
     <header>

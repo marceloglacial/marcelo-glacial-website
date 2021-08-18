@@ -5,11 +5,13 @@ module.exports = {
   theme: {
     extend: {
       lineHeight: {
+        medium: '3.5rem',
         close: '4.5rem',
         large: '5.9rem',
       },
       letterSpacing: {
-        tightest: '-1rem',
+        medium: '-0.5rem',
+        tightest: '-0.75rem',
         tight: '-0.1rem',
       },
     },
