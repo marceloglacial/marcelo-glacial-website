@@ -18,7 +18,7 @@ export default function Layout({ children }) {
         />
         <link
           crossOrigin='anonymous'
-          href='https://fonts.googleapis.com/css?family=Montserrat:200,700'
+          href='https://fonts.googleapis.com/css?family=Montserrat:200,700&display=swap'
           rel='stylesheet'
         />
 
